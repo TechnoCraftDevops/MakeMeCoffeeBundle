@@ -1,0 +1,20 @@
+{
+    "name": "coffeeshop/maker-coffee-bundle",
+    "description": "what you want",
+    "type": "symfony-bundle",
+    "autoload": {
+        "psr-4": {
+            "CoffeeShop\\Bundle\\MakerCoffeeBundle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "George Benson",
+            "email": "george.benson@givemethenight.fr"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "symfony/console": "^5.3"
+    }
+}
